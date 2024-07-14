@@ -1,11 +1,12 @@
-.main-body{
+.main-body {
 
     width: 100%;
     height: 100%;
-  
-    
+
+
 }
-.header-main-body{
+
+.header-main-body {
     display: flex;
     height: 30px;
     padding: 5px;
@@ -14,41 +15,43 @@
 
 }
 
-.icon{
-    flex: 0.1; 
-    
+.icon {
+    flex: 0.1;
+
 }
-.archive-unarchive{
-    flex: 0.1; 
+
+.archive-unarchive {
+    flex: 0.1;
     margin-right: 5px;
     color: #2ac420;
-    
+
 }
-.title{
-    
+
+.title {
+
     flex: 1;
     text-align: left;
     font-weight: bolder;
     font-size: 14pt;
-    padding-top: 4px ;
+    padding-top: 4px;
     padding-left: 10px;
 }
 
-.tabs-main{
+.tabs-main {
     display: none;
 }
 
-.tabs{
+.tabs {
 
-display: flex;
-margin: 5px 20px 5px 20px;
-height: 30px;
-border-radius: 10px;
+    display: flex;
+    margin: 5px 20px 5px 20px;
+    height: 30px;
+    border-radius: 10px;
     border-top: 1.5px solid #e9f9e8;
     border-bottom: 1.5px solid #e9f9e8;
 }
 
-.tab-options{
+.tab-options {
     height: 20px;
     flex: 1;
     align-items: center;
@@ -57,54 +60,55 @@ border-radius: 10px;
     cursor: pointer;
     font-size: 11pt;
     border-radius: 10px;
-    
+
 }
 
 
 
-.main-body-list{
-overflow-y: scroll;
-height: 100%;
-max-height: 400px;
-margin-top: 10px;
-padding: 15px;
+.main-body-list {
+    overflow-y: scroll;
+    height: 100%;
+    max-height: 400px;
+    margin-top: 10px;
+    padding: 15px;
 }
 
-::-webkit-scrollbar{
+::-webkit-scrollbar {
     width: 5px;
 
 }
 
-.activity-detail{
+.activity-detail {
     height: 100%;
 }
 
-.date-call{
-    
+.date-call {
+
     padding: 2px;
     text-align: left;
-   font-size: 8pt;
-   margin-top:10px;
-   display: flex;
+    font-size: 8pt;
+    margin-top: 10px;
+    display: flex;
 }
 
-.date-call-moment{
-    
-  flex: 1;
+.date-call-moment {
+
+    flex: 1;
 }
-.date-call-archive-unarchive{
+
+.date-call-archive-unarchive {
     justify-content: right;
     margin-right: 15px;
-    color : #FF00EC;
+    color: #FF00EC;
     flex: 0.8;
     font-size: 10pt;
     display: none;
 }
 
 
-.call-log{
-    
-  
+.call-log {
+
+
     font-size: 12pt;
     display: flex;
     padding: 7px 5px 10px 5px;
@@ -112,117 +116,131 @@ padding: 15px;
     border-bottom: 1px solid #2ac420;
     margin-left: -10px;
     margin-right: -13px;
-   
+
 }
-.call-log:hover{
+
+.call-log:hover {
     transform: scale(1.05);
     cursor: pointer;
 }
-.call-log-status{
-   
-   padding-top: 3px;
+
+.call-log-status {
+
+    padding-top: 3px;
     flex: 1;
 }
 
-.call-from{
-   
+.call-from {
+
     color: green;
     font-size: 8pt;
     margin-top: 5px;
-    
+
 }
 
-.call-log-info{
-    
-       flex: 6;
+.call-log-info {
+    display: flex;
+    flex: 6;
 }
-.time{
-    
+
+.time {
+
     flex: 2;
     font-size: 9pt;
     padding-top: 10px;
     text-align: center;
-    
-   
+
+
 }
-.mark{
+
+.mark {
     flex: 1;
     text-align: right;
     padding-top: 3px;
-    
+    display: flex;
 }
-.callDetail{
+
+.callDetail {
     flex: 0.7;
-    
-}
-.callDetailInfo{
-height:50px;
-width: 100%;
-background: #d4f3d2;
-border-radius: 0px 0px 8px 8px;
-display: flex;
-border-bottom: 1px solid #2ac420;
-
 
 }
 
-.callDetailInfoRest{
+.callDetailInfo {
+    height: 50px;
+    width: 100%;
+    background: #d4f3d2;
+    border-radius: 0px 0px 8px 8px;
+    display: flex;
+    border-bottom: 1px solid #2ac420;
+
+
+}
+
+.callDetailInfoRest {
     color: black;
     flex: 1;
     margin: 7px 0 0 25px;
 }
-.callMethods{
+
+.callMethods {
     flex: 0.90;
     display: flex;
     align-items: center;
     margin-right: 1px;
-    
+
 }
-.callMethodsIcon{
+
+.callMethodsIcon {
     flex: 1;
     height: 45%;
-    
+
 }
-.callMethodsIcon:hover{
+
+.callMethodsIcon:hover {
     transform: scale(1.2);
     cursor: pointer;
 }
 
-.callDetail:hover{
-    color:#FF00EC;
-    
+.callDetail:hover {
+    color: #FF00EC;
+
 }
-.voiceMail{
+
+.voiceMail {
     color: blue;
     font-size: 18pt;
 }
-.missedCall{
+
+.missedCall {
     color: red;
     font-size: 18pt;
 }
 
-.callMade{
-    color: #2ac420;;
+.callMade {
+    color: #2ac420;
+    ;
     font-size: 18pt;
 }
 
 
-.marked-unmarked{
-    color: #2ac420; 
-    font-weight: bold; 
+.marked-unmarked {
+    color: #2ac420;
+    font-weight: bold;
 }
-.marked-unmarked:hover{
+
+.marked-unmarked:hover {
     color: #FF00EC;
 }
 
 
-.reset-button{
+.reset-button {
     height: 30px;
-margin: -40px 15px 5px 15px;
-align-items: center;
+    margin: -40px 15px 5px 15px;
+    align-items: center;
 }
-.reset-button-frame{
-   
+
+.reset-button-frame {
+
     width: 20%;
     height: 70px;
     text-align: center;
@@ -230,32 +248,44 @@ align-items: center;
     margin-left: auto;
     margin-right: auto;
     padding: 2.5px;
-    background-color: #e9f9e8;;
+    background-color: #e9f9e8;
+    ;
     animation-name: example2;
-     animation-duration: 10s;
-    
+    animation-duration: 10s;
+
 }
 
 @keyframes example2 {
-    20%   {background-color: #e9f9e8;}
-    50%  {background-color: #FF00EC;}
-    60%  {background-color: #FF00EC;}
-    80%  {background-color: #2ac420;}
-    100%  {background-color: #e9f9e8;}
-    
-  }
+    20% {
+        background-color: #e9f9e8;
+    }
 
-.reset-button-main{
-  
+    50% {
+        background-color: #FF00EC;
+    }
+
+    60% {
+        background-color: #FF00EC;
+    }
+
+    80% {
+        background-color: #2ac420;
+    }
+
+    100% {
+        background-color: #e9f9e8;
+    }
+
+}
+
+.reset-button-main {
+
     border-radius: 50px;
-    height:98%;
+    height: 98%;
     width: 100%;
     background-color: #2ac420;
     color: white;
     font-size: 12pt;
     cursor: pointer;
-    
+
 }
-
-
-

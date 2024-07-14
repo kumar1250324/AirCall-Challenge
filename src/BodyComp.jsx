@@ -2,7 +2,7 @@ import React from 'react'
 import './css/body-comp.css'
 import { RiMenuLine, RiMenuFoldFill } from 'react-icons/ri'
 import { BsArchive, BsArchiveFill } from 'react-icons/bs'
-import Calllog from './components/Calllog';
+import CallLog from './components/CallLog.jsx';
 import { useState, useEffect } from 'react';
 import axios from 'axios';
 import regeneratorRuntime from "regenerator-runtime";
@@ -109,7 +109,7 @@ export default function BodyComp() {
                                     return c;
                                 }
                             }).map((c) => (
-                                <Calllog key={c.id} callLog={c} />
+                                <CallLog key={c.id} callLog={c} />
                             ))}
                         </div> :
                         <div className="main-body-list" id="main-body-list1">
@@ -118,7 +118,7 @@ export default function BodyComp() {
                                     return c;
                                 }
                             }).map((c) => (
-                                <Calllog key={c.id} callLog={c} />
+                                <CallLog key={c.id} callLog={c} />
                             ))}
                         </div>
                     }
